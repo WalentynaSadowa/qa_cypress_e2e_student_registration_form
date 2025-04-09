@@ -3,7 +3,6 @@
 describe('Student Registration page', () => {
   before(() => {
     cy.visit('https://demoqa.com/automation-practice-form');
-i
     cy.get('#fixedban').invoke('remove');
     cy.get('footer').invoke('remove');
   });
